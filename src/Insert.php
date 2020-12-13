@@ -72,24 +72,8 @@ class Insert{
         return $this;
     }
 
-    public function txt(){
+    public function txt(): string
+    {
         return $this->queryBuilt;
     }
-
-
-    public function teste(): string
-    {
-        return "Teste!";
-    }
-
-    public function teste3(): string
-    {
-        return "Teste!";
-    }
-
-
-
-
-
-
 }
