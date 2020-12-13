@@ -8,7 +8,7 @@ final class InsertTest extends TestCase
 
     protected $bQ = null;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->bQ = new QueryBuilder\Insert();
     }
