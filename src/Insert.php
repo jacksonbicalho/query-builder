@@ -71,4 +71,9 @@ class Insert{
 
         return $this;
     }
+
+    public function txt(): string
+    {
+        return $this->queryBuilt;
+    }
 }

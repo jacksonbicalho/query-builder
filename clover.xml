@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1607862756">
-  <project timestamp="1607862756">
+<coverage generated="1607891574">
+  <project timestamp="1607891574">
     <package name="QueryBuilder">
       <file name="/app/src/Insert.php">
         <class name="QueryBuilder\Insert" namespace="QueryBuilder">
-          <metrics complexity="17" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="18" elements="28" coveredelements="24"/>
+          <metrics complexity="15" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="24" coveredelements="24"/>
         </class>
         <line num="14" type="method" name="getFields" visibility="protected" complexity="7" crap="7" count="2"/>
         <line num="16" type="stmt" count="2"/>
@@ -40,14 +40,10 @@
         <line num="70" type="stmt" count="2"/>
         <line num="72" type="stmt" count="2"/>
         <line num="75" type="method" name="txt" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="76" type="stmt" count="2"/>
-        <line num="80" type="method" name="teste" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="82" type="stmt" count="0"/>
-        <line num="85" type="method" name="teste3" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="87" type="stmt" count="0"/>
-        <metrics loc="95" ncloc="92" classes="1" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="29" elements="39" coveredelements="35"/>
+        <line num="77" type="stmt" count="2"/>
+        <metrics loc="79" ncloc="76" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="29" elements="35" coveredelements="35"/>
       </file>
     </package>
-    <metrics files="1" loc="95" ncloc="92" classes="1" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="29" elements="39" coveredelements="35"/>
+    <metrics files="1" loc="79" ncloc="76" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="29" elements="35" coveredelements="35"/>
   </project>
 </coverage>
