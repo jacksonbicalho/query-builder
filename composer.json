@@ -1,0 +1,24 @@
+{
+    "name": "jacksonbicalho/query-builder",
+    "description": "***************************",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jackson Bicalho",
+            "email": "jacksonbicalho@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": { "QueryBuilder\\": "./src" }
+    },
+    "scripts": {
+        "test" : "vendor/bin/phpunit"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}
